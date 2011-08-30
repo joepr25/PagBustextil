@@ -1,0 +1,247 @@
+/* 
+    Document   : style
+    Created on : Aug 26, 2011, 2:41:30 PM
+    Author     : joepr25
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html, body {
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+div {
+    
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+nav {
+    display: table-cell;
+}
+
+body {
+    
+    background-color: #cccccc;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 500px;
+    max-height: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    display: table-row;
+}
+
+li {
+    width: 160px;
+    display: table-cell;
+}
+
+/* ********************Todo esto es para el header************************ */
+
+.provador {
+    display: table-cell;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.header {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    max-height: 150px;
+}
+
+.barraNavegadora {
+    
+    width: 100%;
+    max-width: 1140px;
+    min-width: 1090px;
+    min-height: 50px;
+    max-height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    height: 50px;
+    
+    background: #844429; /* for non-css3 browsers */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f97f1a', endColorstr='#844429'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#f97f1a), to(#844429)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #f97f1a,  #844429); /* for firefox 3.6+ */ 
+    
+    /* Css3 */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /*Firefox*/
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    /*IE*/
+    -ms-border-radius-bottomleft: 10px;
+    -ms-border-radius-bottomright: 10px;
+
+
+}
+
+.logo {
+    top: 18px;
+    left: 11%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-height: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.loginform {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 11%;
+    left: 78%;
+    top: 32px;
+    max-width: 260px;
+}
+
+.loginform input[type="text"], .loginform input[type="password"]{
+    
+    
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-family: 'Courier New',Courier,monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menus {
+
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-height: 50px;
+    height: 50px;
+    max-width: 500px;
+}
+
+
+
+a.menus{
+    
+    /*
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Courier New',Courier,monospace;
+    color: #ffffff;
+    font-weight: bold;
+    */
+}
+
+.menus a:hover {
+    
+    cursor: pointer;
+    cursor: hand;
+    
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#844429', endColorstr='#f97f1a'); /* for IE */
+                                                                                                                  
+    background: -webkit-gradient(linear, left top, left bottom, from(#844429), to(#f97f1a)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #844429,  #f97f1a); /* for firefox 3.6+ */ 
+    
+    /* Css3 */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /*Firefox*/
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    /*IE*/
+    -ms-border-radius-bottomleft: 10px;
+    -ms-border-radius-bottomright: 10px;
+    -ms-border-radius-topleft: 10px;
+    -ms-border-radius-topright: 10px;
+    
+}
+
+a#ultimomenu{
+    
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-height: 50px;
+    height: 50px;
+    max-width: 500px;
+
+}
+
+
+
+
+
+/* ********************Aquí termina la edición del header************************ */
